@@ -16,9 +16,6 @@ then
     printf '\033]0;%s@%s\007' "$(id -un)" "$(hostname)"
 fi
 
-# Special commands
-alias v='source venv/bin/activate'
-
 # Eternal bash history
 export HISTFILESIZE=
 export HISTSIZE=
